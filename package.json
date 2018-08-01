@@ -1,0 +1,20 @@
+{
+  "name": "simple-chat-socketio",
+  "version": "1.0.0",
+  "description": "Un simple chat realizado con WebSocket (Socket.io, HTML5, CSS3, JS, NodeJS).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
