@@ -1,6 +1,9 @@
-Un simple chat realizado con WebSocket (Socket.io, HTML5, CSS3, JS, NodeJS).
+## Un simple chat realizado con WebSocket (Socket.io, HTML5, CSS3, JS, NodeJS).
 
-`git clone`
+#### Abrir un terminal y ejecutar las siguientes lineas.
+
+
+`git clone https://github.com/EndersonPro/simple-chat-socketio`
 
 `cd simple-chat-socketio`
 
@@ -8,5 +11,5 @@ Un simple chat realizado con WebSocket (Socket.io, HTML5, CSS3, JS, NodeJS).
 
 `npm run dev`
 
-`http://localhost:4000/`
+En tu navegador accede a `http://localhost:4000/`
 
