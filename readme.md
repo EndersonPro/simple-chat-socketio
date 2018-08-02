@@ -8,4 +8,5 @@ Un simple chat realizado con WebSocket (Socket.io, HTML5, CSS3, JS, NodeJS).
 
 `npm run dev`
 
+`http://localhost:4000/`
 

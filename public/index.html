@@ -5,9 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chat Socket.io</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+
+    <div id="chat-container">
+        <div id="chat-window">
+            <div id="output">
+                <div id="actions"></div>
+            </div>
+        </div>
+        <input type="text" id="username" placeholder="Nombre">
+        <input type="text" id="message" placeholder="Mensaje">
+        <button id="send"> Enviar </button>
+    </div>
     
     <script src="/socket.io/socket.io.js"></script>
     <script src="js/main.js"></script>
