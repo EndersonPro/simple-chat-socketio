@@ -20,4 +20,14 @@ const io = SocketIO.listen(server)
 // WebSocket
 io.on('connection', (socket)=>{
     console.log("New connection ", socket.id)
+
+    socket.on('chat:message',  data => {
+        io.sockets.emit('chat:messageServe', data)
+    })
+
+    socket.on('chat:typing', data =>{
+        socket.broadcast.emit('chat:typing', data)
+    })
+
+
 })
